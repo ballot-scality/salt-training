@@ -1,6 +1,7 @@
 base:
   '*':
     - default
+    - salt-update
   'os_family:Debian':
     - preprod
     - match: grain
